@@ -5,6 +5,8 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
-  title = 'angularApp';
+export class AppComponent  {
+  minDateValue: Date | null = null;
+  maxDateValue: Date | null = null;
+  disabledDates: Function | null = null;
 }
