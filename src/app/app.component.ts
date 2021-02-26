@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent  {
-  minDateValue: Date | null = null;
-  maxDateValue: Date | null = null;
-  disabledDates: Function | null = null;
+  minDateValue: string | number | Date | null = null;
+  maxDateValue: string | number | Date | null = null;
+  disabledDates: Function | Date[] | null = null;
 }
